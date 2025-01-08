@@ -9,3 +9,15 @@
   font-style: normal;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.homemaininfo{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assets//homepage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
