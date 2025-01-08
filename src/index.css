@@ -1,4 +1,14 @@
-/* home page */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  font-family: "Cabin", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 *{
   margin: 0;
   padding: 0;
