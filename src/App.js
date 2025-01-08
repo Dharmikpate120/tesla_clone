@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Navbar from "./Component/Navbar";
+import Energy from "./Pages/Energy";
+import Design from "./Pages/Design";
 
 function App() {
   return (
@@ -9,23 +11,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/*<Route path="/Signin" element={<Signin />} />
-        <Route path="/Signup" element={<Signup />} />
-        <Route path="/fillUserInfo" element={<FillUserInfo />} />
-
-        <Route path="/Profile" element={<ProfileNavbar />}>
-          <Route path="personalInformation" element={<ProfilePage />} />
-          <Route path="SellerInformation" element={<SellerProfile />} />
-          <Route path="previousorders" element={<PreviousOrder />} />
-          <Route path="Sellerform" element={<SellerForm />} />
-          <Route path="addNewProduct" element={<AddProducts />} />
-        </Route>
-        <Route path="/userDetails" element={<UserDetails />} />
-
-        <Route path="/Favourites" element={<LikedItems />} />
-        <Route path="/Cart" element={<Cart />} />
-        <Route path="/confirmationPage" element={<ConfirmationPage />} />
-        <Route path="/paymentPage" element={<PaymentPage1 />} /> */}
+          <Route path="/energy/design" element={<Design />} />
+          <Route path="/energy" element={<Energy />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
